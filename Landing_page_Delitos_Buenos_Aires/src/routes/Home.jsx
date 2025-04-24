@@ -16,7 +16,7 @@ function Home() {
             horarias en que se presenta el delito en la provincia.
           </p>
         </div>
-        <img src="../../public/home.png"></img>
+        <img src=".\src\assets\img_del_inicio\home.jpg" />
       </div>
     </>
   );

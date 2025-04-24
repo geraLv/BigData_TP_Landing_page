@@ -6,12 +6,7 @@ function Button({ nameButton, direction, state }) {
   return (
     <>
       <Link to={direction}>
-        <button
-          onClick={(state = direction)}
-          className={direction == state ? clsse1 : "bg-white"}
-        >
-          {nameButton || "button"}
-        </button>
+        <button className={clsse1}>{nameButton || "button"}</button>
       </Link>
     </>
   );
